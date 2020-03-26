@@ -1,0 +1,38 @@
+@media (min-width: 576px) {
+  .navbar-expand-sm {
+    flex-flow: row nowrap;
+    justify-content: center !important;
+  }
+}
+
+.navbar-lewagon {
+  justify-content: center;
+  background: white;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  li {
+    list-style-type: none;
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+
