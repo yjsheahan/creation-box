@@ -1,8 +1,9 @@
 .banner {
   background-image: url(plant.jpg);
   background-repeat: no-repeat;
-  width: 100vw;
-  height: -webkit-fill-available;
+  max-width: 100%;
+  min-height: -webkit-fill-available;
+  height: auto;
   background-size: cover;
   background-position: center;
   padding: 16% 5% 8% 5%;

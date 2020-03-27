@@ -1,9 +1,9 @@
 .footer {
   background: #F4F4F4;
-  display: flex;
+  // display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
+  // flex-direction: row;
+  // justify-content: space-between;
   height: 100px;
   padding: 8px 16px;
   color: rgba(0,0,0,0.6);
@@ -13,12 +13,12 @@
     padding: 0;
     margin: 0;
   }
-  // h4 {
-  //   font-size: 16px;
-  // }
-  // p {
-  //   font-size: 12px;
-  // }
+  h4 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
 }
 // .footer-links {
 //   display: flex;
@@ -46,4 +46,5 @@
 
 #email {
   font-size: 10px;
+  text-align: right;
 }
