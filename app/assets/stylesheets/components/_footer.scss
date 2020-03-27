@@ -2,14 +2,23 @@
   background: #F4F4F4;
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   height: 100px;
   padding: 8px 16px;
-  color: rgba(0,0,0,0.3);
+  color: rgba(0,0,0,0.6);
+  background-color: #FBFBFB;
+  border-top: solid 1px white;
   h4, p, a {
     padding: 0;
     margin: 0;
   }
+  // h4 {
+  //   font-size: 16px;
+  // }
+  // p {
+  //   font-size: 12px;
+  // }
 }
 // .footer-links {
 //   display: flex;
@@ -33,4 +42,8 @@
 
 .opening-hours {
   text-align: center;
+}
+
+#email {
+  font-size: 10px;
 }
