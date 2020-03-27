@@ -1,8 +1,14 @@
 .banner {
+  background-image: url(plant.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: -webkit-fill-available;
   background-size: cover;
   background-position: center;
-  padding: 20% 10% 15% 5%;
+  padding: 16% 5% 8% 5%;
   display: flex;
+  position: relative;
+  z-index: 10;
 }
 
 .banner h1 {
@@ -11,6 +17,7 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 32px;
   font-weight: bold;
+  z-index: 11;
 }
 
 .banner p {
@@ -20,3 +27,9 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+// .container {
+//   border: solid 3px black;
+//   border-radius: 10px;
+//   padding: 4vh 6vw;
+//   max-width: 150px;
+// }
