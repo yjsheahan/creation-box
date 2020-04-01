@@ -1,0 +1,52 @@
+.tab {
+  h4 {
+    padding: 4vh 0;
+  }
+  #title-no-bottom-pad {
+    padding-bottom: 0;
+  }
+
+  #para-no-top-pad {
+    padding-top: 0;
+  }
+}
+
+.event-container h4 {
+  padding: 60px 0;
+}
+
+.event-container h1 {
+  padding: 60px 0;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding p {
+  padding: 0;
+}
+
+.empty-navbar {
+  height: 58px;
+  width: 100vw;
+  background-color: white;
+}
+
+.review p {
+  padding: 0;
+  color: rgba(0,0,0,0.6);
+}
+
+.review {
+  padding-bottom: 4vh;
+}
+
+.collaborators p {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.tab p {
+  padding-top: 0;
+}
