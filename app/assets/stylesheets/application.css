@@ -16,3 +16,6 @@
 @import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
 @import "font-awesome-sass";
 
+body {
+  background-color: #F8F8F6;
+}
