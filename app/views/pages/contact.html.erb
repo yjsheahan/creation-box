@@ -1,5 +1,23 @@
 <div class="contact-container">
   <h1>contact</h1>
+  <div id="map" style="height: 300px; width: 600px"></div>
+
+  <script>
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoieWFzbWluanMiLCJhIjoiY2s0MzZhNnduMDM5ZzNucGEzNTJucDkxZyJ9.MvMkfQDy8DyZq5xlPg_f5A';
+
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/light-v10',
+      center: [-0.077, 51.533],
+      zoom: 12
+    });
+
+  // code from the next step will go here!
+    new mapboxgl.Marker()
+    .setLngLat([ -0.077, 51.533 ])
+    .addTo(map);
+  </script>
   <div class="contact-text row">
     <div class="address col-6">
       <h4>ADDRESS</h4>

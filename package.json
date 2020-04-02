@@ -2,6 +2,7 @@
   "name": "creation-box",
   "private": true,
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "^4.4.1",
+    "mapbox-gl": "^1.9.0"
   }
 }
