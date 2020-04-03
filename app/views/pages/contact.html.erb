@@ -1,19 +1,10 @@
 <div class="contact-container">
   <h1>contact</h1>
+  <div class="contact-sm-container row">
 <!--   <form>
     <input type="text">
     <input type="submit" value="Find">
   </form> -->
-  <br>
-  <div id="map" style="height: 400px; width: 100% padding: 12px 20px;"></div>
-  <div id="menu">
-  <input style="display: none;"
-  id="streets-v11"
-  type="radio"
-  name="rtoggle"
-  value="streets"
-  checked="checked"
-  />
 <!--   <label for="streets">streets</label>
   <input id="light-v10" type="radio" name="rtoggle" value="light" />
   <label for="light">light</label>
@@ -23,27 +14,41 @@
   <label for="outdoors">outdoors</label>
   <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" />
   <label for="satellite">satellite</label> -->
-  </div>
-  <div class="contact-text row">
-    <div class="address col-6 col-sm-12">
-      <h4>ADDRESS</h4>
-      <p>Make Space Studios</p>
-      <p>Newnham Terrace</p>
-      <p>SE1 7DR</p>
-      <p>Nearest Tube - Lambeth North (3 minute walk)</p>
-      <p>Nearest Main Line - Waterloo Station (?? minute walk)</p>
+    <div class="contact-text col-6">
+      <div class="address">
+        <h4>ADDRESS</h4>
+        <br>
+        <p>Make Space Studios</p>
+        <p>Newnham Terrace</p>
+        <p>SE1 7DR</p>
+        <p>Nearest Tube - Lambeth North (3 minute walk)</p>
+        <p>Nearest Main Line - Waterloo Station (?? minute walk)</p>
+        <br>
+      </div>
       <br>
-    </div>
-    <div class="directions col-6 col-sm-12">
-      <h4>DIRECTIONS</h4>
-      <p>Across from Lambeth North tube, you will see a sushi restaurant.</p>
-      <p>Directly opposite is Newnham Terrace. </p>
-      <p>Take a right down that road, look directly up and you will see pink stairs and a large Make Space Studios sign.</p>
       <br>
-      <p><strong>YOU HAVE ARRIVED!</strong></p>
+      <div class="directions">
+        <h4>DIRECTIONS</h4>
+        <br>
+        <p>Across from Lambeth North tube, you will see a sushi restaurant.</p>
+        <p>Directly opposite is Newnham Terrace. </p>
+        <p>Take a right down that road, look directly up and you will see pink stairs and a large Make Space Studios sign.</p>
+        <br>
+        <p><strong>YOU HAVE ARRIVED!</strong></p>
+      </div>
+    </div>
+    <!-- Add a map -->
+    <div id="map" class="col-6" style="width: 100% padding: 12px 20px;"></div>
+    <div id="menu">
+    <input style="display: none;"
+    id="streets-v11"
+    type="radio"
+    name="rtoggle"
+    value="streets"
+    checked="checked"
+    />
     </div>
   </div>
-  <!-- Add a map -->
 </div>
 <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoieWFzbWluanMiLCJhIjoiY2s0MzZhNnduMDM5ZzNucGEzNTJucDkxZyJ9.MvMkfQDy8DyZq5xlPg_f5A';
@@ -67,14 +72,7 @@
     inputs[i].onclick = switchLayer;
     }
 
-  // code from the next step will go here!
     new mapboxgl.Marker()
     .setLngLat([ -0.113763, 51.4984465 ])
     .addTo(map);
-    // new mapboxgl.Marker()
-    // .setLngLat([ -0.1141765, 51.503754 ])
-    // .addTo(map);
-    // new mapboxgl.Marker()
-    // .setLngLat([ -0.1120, 51.499129 ])
-    // .addTo(map);
   </script>

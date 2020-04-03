@@ -1,32 +1,41 @@
-// @media (max-width: @screen-xs-max) {
-//   text-align: center;
+// @media(max-width: 1200px) {
+//   .address {
+//     text-align: center;
+//   }
+//   .directions {
+//     text-align: center;
+//   }
 // }
 
-.address {
-  text-align: left;
+@media(max-width: 500px) {
+  .address {
+    text-align: left;
+  }
+  .directions {
+    text-align: left;
+  }
 }
 
 .contact-container {
-  padding: 28px 20px;
+  padding: 28px 0;
 }
 
-.contact-container h4, p {
-  padding: 0 !important;
-}
-
-.directions {
-  // padding: 28px 0;
-  text-align: right;
-}
+// .contact-container h4, p {
+//   padding: 0 !important;
+// }
 
 .contact-text {
-  padding-top: 20px;}
+  padding-top: 20px;
+}
 
 .contact-text p {
   margin: 0;
 }
 .contact-container h1 {
   text-align: center;
+}
+.contact-sm-container {
+  padding: 0 20px;
 }
 
 // #map {
