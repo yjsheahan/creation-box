@@ -18,6 +18,16 @@
     p {
       padding: 2vh 0;
     }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      color: black;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
   }
 // }
 
