@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "mapbox-gl": "^1.9.0"
+    "mapbox-gl": "^1.9.0",
+    "ngrok": "^3.2.7"
   }
 }

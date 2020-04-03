@@ -2,6 +2,9 @@ class PagesController < ApplicationController
   def home
   end
 
+  def message
+  end
+
   def studio
   end
 
