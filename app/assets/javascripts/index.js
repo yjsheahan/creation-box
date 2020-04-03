@@ -4,3 +4,8 @@ fetch('https://api.mapbox.com/geocoding/v5/mapbox.places/SE1 8NB.json?access_tok
     console.log(data);
 });
 
+let box = document.querySelector("#js-box");
+// box.addEventListener("click", () => {
+//   box.setTimeout(box.style.backgroundColor = "#931663", 1000);
+// }
+box.style.backgroundColor = "#931663";

@@ -1,33 +1,17 @@
-// @media(max-width: 500px) {
-  .banner {
-    background-image: url(plant.jpg);
-    background-repeat: no-repeat;
-    max-width: 100%;
-    min-height: -webkit-fill-available;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    padding: 100px 20px;
-    display: flex;
-    position: relative;
-    z-index: 10;
-   }
-// }
+.banner {
+  background-image: url(plant.jpg);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  min-height: -webkit-fill-available;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  display: flex;
+  position: relative;
+  z-index: 10;
+ }
 
-// @media(max-width: 1200px) {
-//   .banner {
-//     background-image: url(plant.jpg);
-//     background-repeat: no-repeat;
-//     max-width: 100%;
-//     background-size: cover;
-//     background-position: center;
-//     min-height: 50vh;
-//     height: auto;
-//     display: flex;
-//     padding: 16% 5% 8% 5%;
-
-//   }
-// }
 
 .banner a {
   text-decoration: none !important;
@@ -40,6 +24,7 @@
   // box-shadow: 1px 1px 3px rgba(0,0,0,1);
   padding: 12px;
   background-color: rgba(0,0,0,0.4);
+  // background-color: #931663;
   opacity: 0.5;
   color: white;
 }
@@ -61,10 +46,3 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
-// .container {
-//   // min-height: 100vh;
-// //   border: solid 3px black;
-// //   border-radius: 10px;
-// //   padding: 4vh 6vw;
-// //   max-width: 150px;
-// }
