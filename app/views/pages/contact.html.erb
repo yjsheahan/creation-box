@@ -1,6 +1,8 @@
+<%= render "shared/sm_banner" %>
+<%= render "shared/navbar" %>
 <div class="contact-container">
   <h1>contact</h1>
-  <div class="contact-sm-container row">
+  <div class="contact-sm-container">
 <!--   <form>
     <input type="text">
     <input type="submit" value="Find">
@@ -14,10 +16,9 @@
   <label for="outdoors">outdoors</label>
   <input id="satellite-v9" type="radio" name="rtoggle" value="satellite" />
   <label for="satellite">satellite</label> -->
-    <div class="contact-text col-6">
+    <div class="contact-text">
       <div class="address">
         <h4>ADDRESS</h4>
-        <br>
         <p>Make Space Studios</p>
         <p>Newnham Terrace</p>
         <p>SE1 7DR</p>
@@ -26,10 +27,8 @@
         <br>
       </div>
       <br>
-      <br>
       <div class="directions">
         <h4>DIRECTIONS</h4>
-        <br>
         <p>Across from Lambeth North tube, you will see a sushi restaurant.</p>
         <p>Directly opposite is Newnham Terrace. </p>
         <p>Take a right down that road, look directly up and you will see pink stairs and a large Make Space Studios sign.</p>
@@ -38,7 +37,7 @@
       </div>
     </div>
     <!-- Add a map -->
-    <div id="map" class="col-6" style="width: 100% padding: 12px 20px;"></div>
+    <div id="map" class="map" style="width: 100%; padding: 12px 20px;"></div>
     <div id="menu">
     <input style="display: none;"
     id="streets-v11"
