@@ -35,7 +35,7 @@
   }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 575px) {
   .banner {
     background-image: url(plant.jpg);
     background-repeat: no-repeat;
@@ -43,10 +43,15 @@
     background-position: center;
     min-height: fit-content;
     height: auto;
+    border-bottom: solid 1px #931663;
   }
 
   .banner p, em {
     display: none;
+  }
+
+  .banner h1 {
+    text-shadow: 1px 1px 3px #931663 !important;
   }
 }
 
