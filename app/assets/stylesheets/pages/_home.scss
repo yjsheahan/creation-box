@@ -4,6 +4,11 @@
 //     text-align: center;
 //   }
 // }
+
+.jumbo-container {
+  height: fit-content;
+}
+
 @media(max-width: 1500px) {
     .text {
     padding: 0 20px;
@@ -37,6 +42,9 @@
   }
   .text h4 {
     padding: 12px 0;
+  }
+  .text {
+    display: none;
   }
 }
 
