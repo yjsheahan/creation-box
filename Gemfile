@@ -8,6 +8,9 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # gem 'taps'
+# gem 'uglifier', '~> 2.7', '>= 2.7.2'
+gem 'uglifier', '>= 1.3.0'
+
 gem 'pg'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
