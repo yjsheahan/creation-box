@@ -13,9 +13,11 @@
  *= require_tree
  *= require_self
  */
-@import "bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
-@import "font-awesome-sass";
-@import "pages";
+/*@import "~bootstrap/scss/bootstrap"; /* picks it up in node_modules! */
+/*@import "font-awesome-sass";
+@import "pages";*/
+
+@import "pages/index";
 
 body {
   background-color: #F8F8F6;
