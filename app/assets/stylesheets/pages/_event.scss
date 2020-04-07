@@ -39,7 +39,7 @@
 }
 
 .review {
-  padding-bottom: 4vh;
+  padding-bottom: 12px;
 }
 
 .collaborators p {
@@ -56,7 +56,7 @@
   text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   h1 {
-    padding: 16vh 0 8vh 0;
+    padding: 36px 0 12px 0;
   }
   h4 {
     padding: 8vh 0;
@@ -69,5 +69,8 @@
 @media(max-width: 800px) {
   .event-text h1 {
     padding-top: 40px;
+  }
+  .review {
+    display: none;
   }
 }
