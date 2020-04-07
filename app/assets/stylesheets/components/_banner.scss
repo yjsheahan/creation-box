@@ -25,6 +25,8 @@
   display: flex;
   position: relative;
   z-index: 10;
+  // border-bottom: solid 1px #931663;
+
  }
  .banner p {
     font-size: 32px;
@@ -67,7 +69,7 @@
   padding: 12px;
   background-color: rgba(0,0,0,0.6);
   // background-color: #931663;
-  opacity: 0.5;
+  // opacity: 0.5;
   color: white;
 }
 
