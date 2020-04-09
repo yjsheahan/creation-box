@@ -14,7 +14,7 @@
 
 @media(max-width: 1500px) {
   .banner {
-  background-image: url('plant.jpg');
+  // background-image: url('plant.jpg');
   background-repeat: no-repeat;
   max-width: 100%;
   min-height: -webkit-fill-available;
@@ -39,7 +39,7 @@
 
 @media(max-width: 575px) {
   .banner {
-    background-image: url('plant.jpg');
+    // background-image: url('plant.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
